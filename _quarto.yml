@@ -1,0 +1,36 @@
+project:
+  type: book
+
+book:
+  title: "파이썬 데이터 분석 (3판)"
+  author: "Wes McKinney"
+  date: "2026-02-26"
+  chapters:
+    - index.qmd
+    - mybook/ch02.ipynb
+    - mybook/ch03.ipynb
+    - mybook/ch04.ipynb
+    - mybook/ch05.ipynb
+    - mybook/ch06.ipynb
+    - mybook/ch07.ipynb
+    - mybook/ch08.ipynb
+    - mybook/ch09.ipynb
+    - mybook/ch10.ipynb
+    - mybook/ch11.ipynb
+    - mybook/ch12.ipynb
+    - mybook/ch13.ipynb
+    - mybook/appa.ipynb
+    - mybook/appb.ipynb
+
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+
+execute:
+  execute: true
+  freeze: auto
+  echo: true
+  warning: false

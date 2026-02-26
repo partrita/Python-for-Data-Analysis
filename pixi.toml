@@ -1,0 +1,32 @@
+[workspace]
+authors = ["fkt <deepthought@postech.ac.kr>"]
+channels = ["conda-forge"]
+name = "Python-for-Data-Analysis"
+platforms = ["linux-64", "osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = "3.11.*"
+quarto = ">=1.8.27,<2"
+numpy = "*"
+pandas = "==2.0.3"
+matplotlib = "*"
+lxml = "*"
+seaborn = "*"
+statsmodels = "*"
+scipy = "*"
+patsy = "*"
+scikit-learn = "*"
+beautifulsoup4 = "*"
+jupyter = "*"
+ipython = "*"
+requests = "*"
+sqlalchemy = "*"
+openpyxl = "*"
+xlrd = "*"
+tables = "*"
+fastparquet = "*"
+pyarrow = "*"
+pytz = "*"
