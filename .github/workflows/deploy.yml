@@ -22,6 +22,7 @@ jobs:
         with:
           pixi-version: v0.39.5
           manifest-path: pixi.toml
+          frozen: false
 
       - name: Render Quarto Book
         run: |
